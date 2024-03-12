@@ -41,8 +41,11 @@ I was able to do the gradient using a drawingContext to create a the gradient sh
 Based on the Website, the background and the circle share the same gradient color but they are in opposite direction.
 ![pic10](/240306_first_post/Combined.png)
 So I made two different gradient operation for the background and the circle using createLinearGradient()
-
 When I tried doing the rotation, it did not work. Although I used rectMode(CENTER) to align its center point, it seemed that because drawing Context created different kind of shapes than the normal rectangle or circle shape so maybe it didn't apply to this.
 ![pic11](/240306_first_post/RotateWrong.png)
+
+**Update!**
+I managed to rotate the circle correctly. By assigning the coordinates of the center point, I then then move the center point of the circle to the new coordinates assigned. After that, I changed the center values in ellipse shape function to (0,0).
+![pic12](/240306_first_post/RotateCircle.png)
 **harddd**
 _sad_
