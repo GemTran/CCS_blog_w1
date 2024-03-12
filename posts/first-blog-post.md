@@ -5,12 +5,12 @@ snippet: This is my first entry to the world of creative coding!
 disable_html_sanitization: true
 ---
 
-![a small group of people creative coding on the street with their pets](/240306_first_post/glass.png)
+![hi hi hi](/240306_first_post/glass.png)
 Hello, world!
 
-# This is h1
+# W1_Attempt to create Grids
 
-## This is h2
+## Nested Loop - For
 
 _underline_
 
