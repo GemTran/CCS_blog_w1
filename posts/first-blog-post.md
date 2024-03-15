@@ -10,8 +10,14 @@ Hello, world!
 
 # W1_Attempt to create Grids
 ## Nested Loop - For
-<iframe src="https://editor.p5js.org/GemTran/full/EkDrokbRI" width="100%" height = "242px"></iframe>
 
+<iframe id="P1" src="https://editor.p5js.org/GemTran/full/EkDrokbRI" width="100%" height = "242px"></iframe>
+
+<script type="module">
+    constant iframe = document.getElementById ('P1')
+    iframe.width = iframe.parentNode.scrollWidth
+    iframe.height = iframe.parentNode.scrollWidth + 42
+</script>
 I tried to many ways to create the grids based on the given code.
 ![pic1](/240306_first_post/CrossLines.png)
 I tried to duplicate the for loop code for the vertical lines but it only ran a single vertical line.
@@ -26,8 +32,10 @@ However, I couldn't use the original code to initialize this loop so I had to ma
 # W1_Respond to RR's Work
 
 ## Work: Almost Calm
-<iframe src="https://editor.p5js.org/GemTran/full/VGevLiGLl" width="100%" height = "242px"></iframe>
-
+<div>
+    align: center;
+    <iframe src="https://editor.p5js.org/GemTran/full/VGevLiGLl" width="100%" height = "242px"></iframe>
+</div>
 It was so hard!
 At first, I created a Circle shape.
 ![pic4](/240306_first_post/AddShape.png)
