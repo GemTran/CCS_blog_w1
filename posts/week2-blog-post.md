@@ -1,12 +1,11 @@
 ---
-title: First Post W2!
+title: Week 2 Homework!
 published_at: 2024-03-19
 snippet: This is homework of Week 2!
 disable_html_sanitization: true
 ---
 
-![hi hi hi](/240306_first_post/glass.png)
-Hello, world!
+Hi, hi, hi, another week drowning in coding!
 
 # W2_Attempt to use Class
 ## Class and Array
