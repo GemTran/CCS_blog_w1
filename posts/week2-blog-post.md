@@ -11,7 +11,7 @@ Hello, world!
 # W2_Attempt to use Class
 ## Class and Array
 
-<iframe id="P1" src="https://editor.p5js.org/GemTran/full/atlifwKPJ" width="100%" height = "242px"></iframe>
+<iframe id="P1" src="https://editor.p5js.org/GemTran/full/atlifwKPJ" width="100%" height = "442px"></iframe>
 
 <script type="module">
     constant iframe = document.getElementById ('P1')
