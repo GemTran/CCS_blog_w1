@@ -18,17 +18,38 @@ Hello, world!
     iframe.width = iframe.parentNode.scrollWidth
     iframe.height = iframe.parentNode.scrollWidth + 42
 </script>
-I tried to many ways to create the grids based on the given code.
-![pic1](/240306_first_post/CrossLines.png)
-I tried to duplicate the for loop code for the vertical lines but it only ran a single vertical line.
-I search many videos on how to make them and one of which was called Nested Loop.
-And based on the video, it is said that nested loop can generate codes on both x and y axis of the canvas at the very same time
-So I thought it might be suitable for this work. 
-I created another for loop inside another for loop. I created a new variable called j for the vertical line loop and replaced it into the height value of the square operation.
-![pic2](/240306_first_post/Grids.png)
-However, I couldn't use the original code to initialize this loop so I had to make some changes in the values of the square.
-![pic3](/240306_first_post/ColoredGrids.png)
+Before start working on it, I watched many video tutorials about Class method and viewed many examples of it. 
 
+But when it came to the falling falling file, it was harder and the code was complicated with many shortcuts. 
+
+So I thought I must at least try to how the codes work and its functions in this file. After 2 days, when I could understand its logic briefly, I started doing the reorganisation.
+
+![process1](/week2/class_process2.JPG)
+
+Firstly, I need to define all the properties of the faller object and methods related to it. 
+![process2](/week2/class_process.JPG)
+
+Then I added these properties in the constructor of Faller class.
+I declared and assigned "faller" object to Faller class to construct new object in Set Up function. Afterthat, add to the "Fallers" array "faller" properties. 
+
+![process3](/week2/class_sketch.png)
+
+After many trials with errors, I managed to move on from this step.
+
+All the methods, functions related to faller object were then reidentified by adding "faller." before them so it can recognise them.
+
+![process4](/week2/class_final.png)
+
+Then I called "rand.col", "rand_curve", "find_point" in the Faller Class and assigned local variables to the parameters of "find_point" so it can take values from the three arguments being called in the Draw function.
+
+![process5](/week2/class_final2.png)
+
+Finally, I adjusted other elements and tried to make it run.
+
+I must say in order to come this point, I actually tried manually, added and removed stuff randomly until the errors were not shown anymore.
+
+--
+--
 # W1_Respond to RR's Work
 
 ## Work: Almost Calm
