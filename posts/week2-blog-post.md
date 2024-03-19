@@ -49,59 +49,34 @@ Finally, I adjusted other elements and tried to make it run.
 I must say in order to come this point, I actually tried manually, added and removed stuff randomly until the errors were not shown anymore.
 
 --
---
-# W1_Respond to RR's Work
+# W2_Respond to RR's Work
 
-## Work: Almost Calm
+## Work: Homage To The
 <div>
     align: center;
-    <iframe src="https://editor.p5js.org/GemTran/full/VGevLiGLl" width="100%" height = "442px"></iframe>
+    <iframe src="https://editor.p5js.org/GemTran/full/mJz533Gah" width="100%" height = "442px"></iframe>
 </div>
-It was so hard!
-At first, I created a Circle shape.
+I chose this work because I wanted to exercise on what we learned this week, which was array.
 
-![pic4](/240306_first_post/AddShape.png)
+At first, I analysed the work on how it operates, the shapes, the size, the numbers, the flow of the animation. I also tried doing some manual calculations to make it logical within the array.
 
-Then finding the similar colors like in the website.
+![process6](/week2/sketch.JPG)
 
-![pic5](/240306_first_post/CreateCircle.png)
+And many more trials on the maths so I could define the conditionals for the array.
 
-I was able to do the gradient using a drawingContext to create a the gradient shape.
+![process7](/week2/sketch2.JPG)
 
-![pic6](/240306_first_post/TryGradient.png)
+I declared an array called "squares" and initialised it in setup() function with the properties of size, colour, opacity.
 
-![pic7](/240306_first_post/TryGradientinBg.png)
+Then created a loop in draw() function. 
 
-![pic8](/240306_first_post/GradientBg.png)
+![process8](/week2/Loop.png)
 
-![pic9](/240306_first_post/GradientBg-2.png)
+In HomageToThe website, as the square gets smaller, it slowly disappears and new square is being added.
+Therfore, I made a conditonal method that when the size of the square is smaller than 100, which is the size of the last square in the array, it will be remove from the array and a new square will be added into the array.
 
-Based on the Website, the background and the circle share the same gradient color but they are in opposite direction.
-![pic10](/240306_first_post/Combined.png)
+However, I met difficulties in the colours and alpha value adjustments. I could not apply exactly how I did the size with these two values so I had a hard time not knowing how to calculate or control these properties.
 
-So I made two different gradient operation for the background and the circle using createLinearGradient()
-When I tried doing the rotation, it did not work. Although I used rectMode(CENTER) to align its center point, it seemed that because drawing Context created different kind of shapes than the normal rectangle or circle shape so maybe it didn't apply to this.
-![pic11](/240306_first_post/RotateWrong.png)
+![process9](/week2/error.png)
 
-_sad_
-
-**Update!**
-I managed to rotate the circle correctly. By assigning the coordinates of the center point, I then then move the center point of the circle to the new coordinates assigned. After that, I changed the center values in ellipse shape function to (0,0).
-
-![pic12](/240306_first_post/RotateCircle.png)
-
-After I learned about lerpColor in class, I found it might be easier to use lerpColor instead of drawingContext. But then, I figured it only works for lines and it would be hard to rotate it, so I stick with my previous method. Additionally, I changed the shape of the outer gradient from rectangle to circle so the rotation can work better without seeing its edges.
-
-**Update: Fri 15 March**
-One problem I had with the rotation is that two circles will rotate at the same time because they are in the same draw function. My first solution was using Class because I just learned about it after the lecture. My approach was that separate these 2 circles to two class and create for each of that its own rotation within its class. However, it was too complicated. 
-
-![pic13](/240306_first_post/Rotating using Class.png)
-
-Then I found out about a video from _The Coding Train_ talking about Pop() and Push() function. Basically, I understand that Push() saves the current drawing setting below it and Pop() will mark the area of that and reset these settings. So after Pop() function, the setting will reset without losing the current transformation above. 
-
-And, I tried applying it to my work which meaned I put the transformation and the setting of the bigger circle in push and pop function to create an opposite rotation for the smaller circle by using -angle.
-
-![pic14](/240306_first_post/RotationFull.png)
-
-Yayy, but I still had the mouse interaction that I have not yet done but I will come back to it when I have studied more about it.
-
+In the end, I think I understand how the array works better and how to create a repeated loop at basic level.
