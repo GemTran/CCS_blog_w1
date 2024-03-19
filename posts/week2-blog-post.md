@@ -1,17 +1,17 @@
 ---
-title: First Post W1!
-published_at: 2024-03-06
-snippet: This is my first entry to the world of creative coding!
+title: First Post W2!
+published_at: 2024-03-19
+snippet: This is homework of Week 2!
 disable_html_sanitization: true
 ---
 
 ![hi hi hi](/240306_first_post/glass.png)
 Hello, world!
 
-# W1_Attempt to create Grids
-## Nested Loop - For
+# W2_Attempt to use Class
+## Class and Array
 
-<iframe id="P1" src="https://editor.p5js.org/GemTran/full/EkDrokbRI" width="100%" height = "242px"></iframe>
+<iframe id="P1" src="https://editor.p5js.org/GemTran/full/atlifwKPJ" width="100%" height = "242px"></iframe>
 
 <script type="module">
     constant iframe = document.getElementById ('P1')

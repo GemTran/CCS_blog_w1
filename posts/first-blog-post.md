@@ -11,7 +11,7 @@ Hello, world!
 # W1_Attempt to create Grids
 ## Nested Loop - For
 
-<iframe id="P1" src="https://editor.p5js.org/GemTran/full/EkDrokbRI" width="100%" height = "242px"></iframe>
+<iframe id="P1" src="https://editor.p5js.org/GemTran/full/EkDrokbRI" width="100%" height = "442px"></iframe>
 
 <script type="module">
     constant iframe = document.getElementById ('P1')
